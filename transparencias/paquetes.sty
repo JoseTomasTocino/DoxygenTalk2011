@@ -1,0 +1,72 @@
+% Paquetes incluidos:
+% ======== =========
+\usepackage{amsfonts}
+
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+
+\usepackage{verbatim}
+% Paquetes específicos de Beamer
+\usepackage{beamerthemeshadow}
+%\usepackage[T1]{fontenc}
+\usepackage{graphicx}
+
+% \usepackage{tikz}
+% \usepackage{times}
+% \usetikzlibrary{arrows,shapes,snakes}
+
+\usepackage{listingsutf8}
+
+%---------Listing---------------------------------
+\lstset{ frame=Ltb,
+     framerule=0pt,
+     boxpos=c,
+     aboveskip=0.5cm,
+     framextopmargin=3pt,
+     framexbottommargin=3pt,
+     framexleftmargin=0.4cm,
+%     framexrightmargin=-3cm,
+     framesep=0pt,
+     rulesep=.4pt,
+     backgroundcolor=\color{gray97},
+     rulesepcolor=\color{black},
+     %
+     stringstyle=\ttfamily\color{burdeos},
+     identifierstyle=,
+     showstringspaces = false,
+     basicstyle=\footnotesize\ttfamily,
+     commentstyle=\color{violeta},
+     keywordstyle=\bfseries,
+   }
+ 
+% minimizar fragmentado de listados
+\lstnewenvironment{listing}[1][]
+   {\lstset{#1}\pagebreak[0]}{\pagebreak[0]}
+ 
+\lstdefinestyle{consola}
+   {basicstyle=\scriptsize\bf\ttfamily,
+    backgroundcolor=\color{gray75},
+   }
+ 
+\lstdefinestyle{C}
+   {language=C,
+     %
+     numbers=left,
+     numbersep=15pt,
+     numberstyle=\tiny,
+     numberfirstline = false,
+     breaklines=true,
+     emptylines=2,
+   }
+   
+\lstdefinestyle{C++}
+   {language=C++,
+     %
+     numbers=left,
+     numbersep=15pt,
+     numberstyle=\tiny,
+     numberfirstline = false,
+     breaklines=true,
+     emptylines=2,
+   }
+

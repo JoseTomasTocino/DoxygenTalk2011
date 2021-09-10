@@ -1,0 +1,5 @@
+<map id="G" name="G">
+<area shape="rect" id="node1" href="$classVentana.html" title="Representa una ventana." alt="" coords="5,32,80,61"/>
+<area shape="rect" id="node3" href="$classSubVentana.html" title="Ventana de poca calidad." alt="" coords="136,5,235,35"/>
+<area shape="rect" id="node5" href="$classSuperVentana.html" title="Ventana avanzada." alt="" coords="129,59,241,88"/>
+</map>
